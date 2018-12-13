@@ -172,7 +172,7 @@ bool loadConfigFile()
 	else	/* use NAND */
 	{
 		filepath = NandFilepath;
-		
+//		
 //		if(fStat(filepath, &fileStat) != FR_OK)
 //		{
 //			createFile = true;
